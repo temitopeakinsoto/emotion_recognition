@@ -11,7 +11,7 @@ faces_img = cv.imread('face-db/tems/faces.jpg', 1)
 if img is None or faces_img is None:
     print('There was an error loading the images')
     exit()
-
+ 
 # Convert the faces image to grayscale
 gray_img = cv.cvtColor(faces_img, cv.COLOR_BGR2GRAY)
 
